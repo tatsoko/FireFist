@@ -1,92 +1,211 @@
-
-#include <stdio.h>
-#include <iostream>
-
-
 #include <opencv2/opencv.hpp> 
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/features2d/features2d.hpp>
 #include <opencv2/video/background_segm.hpp>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
+
 using namespace cv;
 using namespace std;
 
 #define WIDTH 640
 #define HEIGHT 480
-
 typedef vector<Point> contour_t;
 typedef vector<contour_t> contour_vector_t;
+struct Shader
+{
+    std::string VertexSource;
+    std::string FragmentSource;
+};
 
 static void on_trackbar(int pos, void* slider_value) {
-	*((int*)slider_value) = pos;
+    *((int*)slider_value) = pos;
 }
+
+const char* vertexShaderSource = R"(
+    #version 330 core
+    layout (location = 0) in vec3 position;
+    layout (location = 1) in vec2 texCoord;
+    out vec2 fragTexCoord;
+    void main()
+    {
+        gl_Position = vec4(position, 1.0);
+        fragTexCoord = texCoord;
+    }
+)";
+
+const char* fragmentShaderSource = R"(
+    #version 330 core
+    in vec2 fragTexCoord;
+    out vec4 fragColor;
+    uniform sampler2D textureSampler;
+    void main()
+    {
+        fragColor = texture(textureSampler, fragTexCoord) * 0.5;
+    }
+)";
 
 int main()
 {
+    // Load the cascade classifier for hand detection
+    cv::CascadeClassifier handCascade;
+    handCascade.load("fist.xml"); // Provide the path to your hand cascade XML file
 
-	Mat frame;
-	VideoCapture cap(0);
+    // Open the default camera
+    cv::VideoCapture cap(0);
+    if (!cap.isOpened())
+    {
+        std::cout << "Failed to open the camera." << std::endl;
+        return -1;
+    }
 
-	if (!cap.isOpened()) {
-		cout << "No webcam, using video file" << endl;
-		cap.open("MarkerMovie.MP4");
-		if (cap.isOpened() == false) {
-			cout << "No video!" << endl;
-			exit(0);
-		}
-	}
+    cv::Mat frame;
+    cv::namedWindow("Hand Detection", cv::WINDOW_NORMAL);
+    if (!glfwInit()) {
+        return -1;
+    }
 
-	const string contoursWindow = "FireFist";
-	const string UI = "Threshold";
-	namedWindow(contoursWindow, WINDOW_NORMAL);
-	cv::resizeWindow("FireFist", WIDTH, HEIGHT);
-	int slider_value = 80; //186
-	createTrackbar(UI, contoursWindow, &slider_value, 255, on_trackbar, &slider_value);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "OpenGL Window", nullptr, nullptr);
+    if (!window) {
+        glfwTerminate();
+        return -1;
+    }
+    glfwMakeContextCurrent(window);
+    if (glewInit() != GLEW_OK) {
+        glfwTerminate();
+        return -1;
+    }
 
+    glfwMakeContextCurrent(window);
+    GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
+    glShaderSource(vertexShader, 1, &vertexShaderSource, nullptr);
+    glCompileShader(vertexShader);
 
-	Mat imgFiltered;
+    GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(fragmentShader, 1, &fragmentShaderSource, nullptr);
+    glCompileShader(fragmentShader);
 
-	while (cap.read(frame)) {
-		Mat grayScale;
-		imgFiltered = frame.clone();
-		cvtColor(frame, grayScale, COLOR_BGR2GRAY);
-		blur(grayScale, grayScale, Size(12, 12));
-		if (slider_value == 0) {
-			adaptiveThreshold(grayScale, grayScale, 255, ADAPTIVE_THRESH_MEAN_C, THRESH_BINARY, 33, 5);
-		}
-		else {
-			threshold(grayScale, grayScale, slider_value, 255, THRESH_BINARY);
-		}
-		
+    GLuint shaderProgram = glCreateProgram();
+    glAttachShader(shaderProgram, vertexShader);
+    glAttachShader(shaderProgram, fragmentShader);
+    glLinkProgram(shaderProgram);
 
-		contour_vector_t contours;
+    glDeleteShader(vertexShader);
+    glDeleteShader(fragmentShader);
+    while (!glfwWindowShouldClose(window))
+    {
+        // Capture frame from camera
+        cap >> frame;
 
-		findContours(grayScale, contours, RETR_LIST, CHAIN_APPROX_SIMPLE);
+        // Convert frame to grayscale
+        cv::Mat gray;
+        cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
 
-		for (size_t k = 0; k < contours.size(); k++) {
+        // Detect hands in the frame
+        std::vector<cv::Rect> hands;
+        handCascade.detectMultiScale(gray, hands, 1.0485258, 6, 0, cv::Size(30, 30));
 
-			contour_t approx_contour;
-			approxPolyDP(contours[k], approx_contour, arcLength(contours[k], true) * 0.02, true);
-			contour_vector_t cov, aprox;
-			cov.emplace_back(contours[k]);
-			aprox.emplace_back(approx_contour);
-			if (approx_contour.size() > 1) {
-				drawContours(grayScale, cov, -1, Scalar(0, 255, 0), 4, 1);
-				drawContours(grayScale, aprox, -1, Scalar(255, 0, 0), 4, 1);
-				continue;
-			}
-		}
-		imshow(contoursWindow, grayScale);
+        // Draw bounding boxes around detected hands
+        for (const auto& rect : hands)
+        {
+            cv::rectangle(frame, rect, cv::Scalar(0, 255, 0), 2);
+        }
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
 
-		if (waitKey(10) == 27) {
-			break;
-		}
-	}
+        // Use the shader program
+        glUseProgram(shaderProgram);
 
-	destroyWindow(contoursWindow);
+        // Render your OpenGL content here
+        GLuint vao;
+        glGenVertexArrays(1, &vao);
+        glBindVertexArray(vao);
 
-	return(0);
+        // Create and bind vertex buffer object (VBO)
+        GLuint vbo;
+        glGenBuffers(1, &vbo);
+        glBindBuffer(GL_ARRAY_BUFFER, vbo);
 
+        // Define the vertices and texture coordinates for a quad
+        GLfloat vertices[] = {
+            -1.0f, -1.0f, 0.0f,
+            1.0f, -1.0f, 0.0f,
+            -1.0f, 1.0f, 0.0f,
+            1.0f, 1.0f, 0.0f
+        };
+
+        GLfloat texCoords[] = {
+            0.0f, 1.0f,
+            1.0f, 1.0f,
+            0.0f, 0.0f,
+            1.0f, 0.0f
+        };
+
+        glBufferData(GL_ARRAY_BUFFER, sizeof(vertices) + sizeof(texCoords), NULL, GL_STATIC_DRAW);
+        glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(vertices), vertices);
+        glBufferSubData(GL_ARRAY_BUFFER, sizeof(vertices), sizeof(texCoords), texCoords);
+
+        // Set up vertex attributes
+        GLint positionAttrib = glGetAttribLocation(shaderProgram, "position");
+        glEnableVertexAttribArray(positionAttrib);
+        glVertexAttribPointer(positionAttrib, 3, GL_FLOAT, GL_FALSE, 0, 0);
+
+        GLint texCoordAttrib = glGetAttribLocation(shaderProgram, "texCoord");
+        glEnableVertexAttribArray(texCoordAttrib);
+        glVertexAttribPointer(texCoordAttrib, 2, GL_FLOAT, GL_FALSE, 0, (void*)sizeof(vertices));
+
+        // Create and bind texture
+        GLuint texture;
+        glGenTextures(1, &texture);
+        glBindTexture(GL_TEXTURE_2D, texture);
+
+        // Set texture parameters
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+        // Load the image data into the texture
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, frame.cols, frame.rows, 0, GL_BGR, GL_UNSIGNED_BYTE, frame.ptr());
+
+        // Set uniform for texture sampler
+        GLint textureSamplerUniform = glGetUniformLocation(shaderProgram, "textureSampler");
+        glUniform1i(textureSamplerUniform, 0);
+
+        // Render the quad
+        glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+
+        // Cleanup
+        glDeleteTextures(1, &texture);
+        glDeleteBuffers(1, &vbo);
+        glDeleteVertexArrays(1, &vao);
+
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+        // Display the frame
+        //cv::imshow("Hand Detection", frame);
+
+        // Break the loop if the 'q' key is pressed
+        /*if (cv::waitKey(1) == 'q')
+        {
+            break;
+        }*/
+    }
+    glDeleteProgram(shaderProgram);
+    glfwTerminate();
+    // Release the video capture object and destroy the windows
+    cap.release();
+    cv::destroyAllWindows();
+
+    return 0;
 }
-
