@@ -9,7 +9,7 @@
       "guid" : "48ceb5c29c17261a0aeebc32552fba362feb6c7c8a36a57c81e6f287d2e4aa0f"
     }
   ],
-  "containerPath" : "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/FireFist.xcodeproj",
+  "containerPath" : "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/FireFist.xcodeproj",
   "continueBuildingAfterErrors" : true,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
@@ -31,9 +31,9 @@
       "buildIntermediatesPath" : "",
       "buildProductsPath" : "",
       "derivedDataPath" : "/Users/admin/Library/Developer/Xcode/DerivedData",
-      "indexDataStoreFolderPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/FireFist-gpjpaqzmiquvfjcbujkugijpahff/Index.noindex/DataStore",
+      "indexDataStoreFolderPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/FireFist-eewgxqqmdipsojbaxbwkpjskrzvd/Index.noindex/DataStore",
       "indexEnableDataStore" : true,
-      "indexPCHPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/FireFist-gpjpaqzmiquvfjcbujkugijpahff/Index.noindex/PrecompiledHeaders",
+      "indexPCHPath" : "/Users/admin/Library/Developer/Xcode/DerivedData/FireFist-eewgxqqmdipsojbaxbwkpjskrzvd/Index.noindex/PrecompiledHeaders",
       "pchPath" : ""
     },
     "configurationName" : "Debug",

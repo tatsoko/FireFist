@@ -32,9 +32,9 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Cont
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/UnixPaths.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/3.26.4/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/3.26.4/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeFiles/3.26.4/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeFiles/3.26.4/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/lib/cmake/glew/CopyImportedTargetProperties.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/lib/cmake/glew/glew-config.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/lib/cmake/glew/glew-targets-release.cmake))
@@ -46,5 +46,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/lib/cmake/opencv4
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/lib/cmake/opencv4/OpenCVModules.cmake))
 
-/Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/Applications/CMake.app/Contents/bin/cmake -H/Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project -B/Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build
+/Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/Applications/CMake.app/Contents/bin/cmake -H/Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Project -B/Users/admin/Documents/Dokumente\ -\ Administrators\ MacBook\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build
