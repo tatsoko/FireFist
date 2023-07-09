@@ -1,0 +1,3 @@
+/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/FireFist.dir
+/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/ALL_BUILD.dir
+/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/ZERO_CHECK.dir
