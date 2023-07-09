@@ -61,8 +61,8 @@ public:
     void Init();
     // game loop
     void ProcessInput(float dt);
-    void Update(float dt, std::vector<cv::Rect> &hand);
-    void Render(cv::Mat frame);
+    void Update(float dt, std::vector<cv::Point2d> cFist, std::vector<cv::Rect> rFist);
+    void Render(cv::Mat frame, std::vector<cv::Point2d> cFist, std::vector<cv::Rect> rFist);
     void DoCollision(GameObject &mosquito);
     void SpawnMosquito();
 };

@@ -40,7 +40,7 @@ glm::vec2 GameObject::Move(float dt, unsigned int window_width, unsigned int win
         this->Position.y = 0.0f;
     }
     
-    else if (this->Position.x + this->Size.x >= window_height)
+    else if (this->Position.y + this->Size.y >= window_height)
     {
         this->Velocity.y = -this->Velocity.y;
         this->Position.y = window_height - this->Size.y;
@@ -59,4 +59,3 @@ void  GameObject::setSize(glm::vec2 size){
 void  GameObject::setVelocity(glm::vec2 v){
     this->Velocity = v;
 }
-

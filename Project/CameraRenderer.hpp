@@ -33,7 +33,7 @@ public:
     // Destructor
     ~CameraRenderer();
     // Renders a defined quad textured with given sprite
-    void DrawCamera(cv::Mat frame);
+    void DrawCamera(cv::Mat frame, std::vector<cv::Point2d> cFist, std::vector<cv::Rect> rFist);
     
 private:
     // Render state

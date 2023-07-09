@@ -19,7 +19,7 @@ CameraRenderer::~CameraRenderer()
     glDeleteVertexArrays(1, &this->quadVAO);
 }
 
-void CameraRenderer::DrawCamera(cv::Mat frame)
+void CameraRenderer::DrawCamera(cv::Mat frame, std::vector<cv::Point2d> cFist, std::vector<cv::Rect> rFist)
 {
     // prepare transformations
     this->shader.Use();
@@ -62,7 +62,11 @@ void CameraRenderer::DrawCamera(cv::Mat frame)
     // Create and bind texture
     GLuint camera_texture;
     glGenTextures(1, &camera_texture);
+    glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, camera_texture);
+    
+    // Load the image data into the texture
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, frame.cols, frame.rows, 0, GL_BGR, GL_UNSIGNED_BYTE, frame.ptr());
 
     // Set texture parameters
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
@@ -70,14 +74,23 @@ void CameraRenderer::DrawCamera(cv::Mat frame)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-    // Load the image data into the texture
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, frame.cols, frame.rows, 0, GL_BGR, GL_UNSIGNED_BYTE, frame.ptr());
+    glUniform1i(glGetUniformLocation(shader.ID, "tex1"), 0);
 
     // Set uniform for texture sampler
-    GLint textureSamplerUniform = glGetUniformLocation(shader.ID, "textureSampler");
-    glUniform1i(textureSamplerUniform, 0);
+    cv::Point2d r = cFist.empty() ? cv::Point2d(-0.5, -0.5) : cFist[0];
+    GLint posUniformLocation = glGetUniformLocation(shader.ID, "origin");
+    glUniform2f(posUniformLocation, r.x, r.y);
 
-    
+    auto currentTime = std::chrono::steady_clock::now();
+    auto duration = currentTime.time_since_epoch();
+    float time = std::chrono::duration_cast<std::chrono::milliseconds>(duration).count() / 3000.0f;
+
+    GLint timeUniformLocation = glGetUniformLocation(shader.ID, "iTime");
+    glUniform1f(timeUniformLocation, time);
+
+    float scale = cFist.empty() ? 1.0 : rFist[0].width / 800.0;
+    GLint scaleUniformLocation = glGetUniformLocation(shader.ID, "scale");
+    glUniform1f(scaleUniformLocation, scale);
     
     // Render the quad
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);

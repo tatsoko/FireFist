@@ -37,7 +37,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build")
+set(CMAKE_BINARY_DIR "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build")
 
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

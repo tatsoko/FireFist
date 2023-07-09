@@ -9,22 +9,22 @@
 /* Begin PBXAggregateTarget section */
 		32441F127F6545F482182FDE /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 550C6F1CAAE940A086D28942 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 0FE2C110ADD14F2E9AC30931 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				3A3A3B922B1968BFAF18DD60 /* Generate CMakeFiles/ALL_BUILD */,
+				37F60BDBA080CF5C985BF7B2 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				16F1046452324103BCE5B8C6 /* PBXTargetDependency */,
-				415E7121E5AB4E84B112F832 /* PBXTargetDependency */,
+				1963F344B7B942DA88430367 /* PBXTargetDependency */,
+				EA3B4B95E3C44267A6655DCE /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		E6E4AAF5039543ABAD41CD03 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 439E9658092F4D158EC530C3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 1767FEFADFF641188E758BC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				5A8B2C4B6D05D37A18CAC233 /* Generate CMakeFiles/ZERO_CHECK */,
+				70CF7387D439D6CAA221B033 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
@@ -34,116 +34,112 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		061EC531F95A4AE5B148378B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */ = {isa = PBXBuildFile; fileRef = A8FC210D031D4D8BA0147EF0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */; };
-		10E37551E166470596AD3E74 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */ = {isa = PBXBuildFile; fileRef = A8EEC2026D1A4A388D0D7B89 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */; };
-		311B3C4F3005406AAEE995EE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */ = {isa = PBXBuildFile; fileRef = 3099A850692F4B679F91DEA0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */; };
-		3BBAFA5143FD447CB494B695 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */ = {isa = PBXBuildFile; fileRef = CBE328102C264FDB91BFFEDB /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */; };
-		4A51B72D22ED4CCF8894AA18 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 330C1E5D986647EBAC295A08 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */; };
-		4DD5C2DC49534B0488626882 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.hpp */ = {isa = PBXBuildFile; fileRef = D6FA8B56962C4CCCBD15CA99 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.hpp */; };
-		5C4DBE15090A4E099749D654 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */ = {isa = PBXBuildFile; fileRef = BFD5E2A622914DBBB1CAC846 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */; };
-		6CF24577B0A147E3A754472F /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */ = {isa = PBXBuildFile; fileRef = 4FAB12A4B1A34BACAF7C0303 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */; };
-		6F8EF2A6E9114E4181D6D5A2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = AA073456E6404D32AF31F364 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */; };
-		7349D48FA01F40CAA5DEB7C5 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */ = {isa = PBXBuildFile; fileRef = E8F8751ED4F94865AA0C606E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */; };
-		9EEB5203169B47928C83ED5B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */ = {isa = PBXBuildFile; fileRef = 671F7B73D31842C4936D3792 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */; };
-		9FEF3B8877B247C89C0B9774 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */ = {isa = PBXBuildFile; fileRef = 80644614BCC34C5F9CE6B616 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */; };
-		A03DDC2C61BE403CADB44B84 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */ = {isa = PBXBuildFile; fileRef = B7465D65EBA64B15B09EFC26 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */; };
-		AF28428478B9452C87640F67 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0CAB185350B74F58A041495A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */; };
-		B5E862B5196B45C8B178F19B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */ = {isa = PBXBuildFile; fileRef = 41DEDE34B32C4FEB8FA0D503 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */; };
-		B9753EAE9EAB4CD4AA1FFE50 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 12F36C1CF076400D949D93DA /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.cpp */; };
-		BCBCC45528E14A3E96EB8EA9 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */ = {isa = PBXBuildFile; fileRef = EF49175FA69A4B32A061485E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */; };
-		C242AA22090C4916B9338983 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */ = {isa = PBXBuildFile; fileRef = A941798154FD476E91EAEE51 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */; };
-		C4926AB3AB2246D5B2E9F028 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */ = {isa = PBXBuildFile; fileRef = BDEE8A8DC2CC447E89CB9147 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */; };
-		CACBC1B6E77B4DFCA6DC3943 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */ = {isa = PBXBuildFile; fileRef = C78D5D2EBE8243D4A1E14059 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */; };
-		E75B0C619E9C4A5D807514C2 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */ = {isa = PBXBuildFile; fileRef = D79AED69CF0545CDA1A96F44 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */; };
-		ECDAB7FB587040F1824B5A61 /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 6807179E850642ACA95FDB37 /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */; };
-		F759E4F9627742978C830C22 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */ = {isa = PBXBuildFile; fileRef = 3B9FCFD42F684C688E5FBDEE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */; };
+		058E58A536424CCCB08E943F /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */ = {isa = PBXBuildFile; fileRef = F7E622EC18D84559BE826557 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */; };
+		0E013CD525F9419DAA996033 /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = F922FBD2B97D40B18CE9DC0C /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		0E70701171224DAA9772C844 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */ = {isa = PBXBuildFile; fileRef = EC4DE17FB84A493A92260875 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */; };
+		130A64D8913A493A99059AAF /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */ = {isa = PBXBuildFile; fileRef = 8AF1B5A0AC334C67989644B3 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */; };
+		1CD3169EF69A453B84F0283B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 00D956046B604DEDBA119705 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */; };
+		23402F25BAD148359AB466AB /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */ = {isa = PBXBuildFile; fileRef = 170A5F174AC24F20A9CA6910 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */; };
+		23F218980CA04CF0A9405B33 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */ = {isa = PBXBuildFile; fileRef = E2B15CACCBA34E189917E472 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */; };
+		3ACCDAE46CF942F5940CC5F1 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */ = {isa = PBXBuildFile; fileRef = F9CC467A09144FFCAF11EFF8 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */; };
+		6106B7220AAC412CB3E320F0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */ = {isa = PBXBuildFile; fileRef = AB51A1B0BC7C48FAA09451DD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */; };
+		6E4F794897D3492A81C0471B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */ = {isa = PBXBuildFile; fileRef = 9FABA8E90F9F4B47958627AD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */; };
+		83C26B15E4194886A9A17653 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */ = {isa = PBXBuildFile; fileRef = 08859E91D10B4B1DA3A1BC31 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */; };
+		84CD5731B9A249D7B6D6EC2A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */ = {isa = PBXBuildFile; fileRef = 9A29B1C904F847C79A69238A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */; };
+		AA07DA315EF74D14BEA411D5 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */ = {isa = PBXBuildFile; fileRef = 6CE9B613D1484FE6B3BCD9A8 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */; };
+		AEE82D03286347B397A4FDBD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */ = {isa = PBXBuildFile; fileRef = C3AB8750C45642CDA9C2BC48 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */; };
+		BD8EDA831FD34784A689C5BE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */ = {isa = PBXBuildFile; fileRef = A456298401644A3FB447546F /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */; };
+		CEA61942AA7947078960A684 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 83994F3B7BFF4EF98AE6F1B1 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */; };
+		D49BA2AEFDCD478582232513 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */ = {isa = PBXBuildFile; fileRef = 7423A57AE91C4980B50666A6 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */; };
+		DCC53DA8109F43DC9D49F924 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */ = {isa = PBXBuildFile; fileRef = BCC151AC9C224AF8A36ECC53 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */; };
+		E31CA1590F9A4DB5A403B8C1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 6C39B76BA4AF4D7D86CFB5BF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		F0263DB3623B470C8614193B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */ = {isa = PBXBuildFile; fileRef = 0BA3436F42894200962E4F6E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */; };
+		FE0C786BA4FA4960B950A552 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */ = {isa = PBXBuildFile; fileRef = 67E384B576D2460CA1800BD7 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1F495B92C8AB4065BE692858 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		7A60CC26B5C348218F46C763 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		E3326A7D423F4422A45E3F5B /* RelWithDebInfo */ = {
+		B1C6609D13544725B18B0DBC /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		FD688837F30B49338EFB74B8 /* Release */ = {
+		B9B9D5EC7A204D438BBA7724 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		E994A26E76734E4791A6EDAB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		EDC0E86121874EF685C9A8F6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		0E206D514E084C68BAA5B2A7 /* PBXContainerItemProxy */ = {
+		45F0531B02664339813A94FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11C554C7EB3459DAC45BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E4AAF5039543ABAD41CD03;
+			remoteInfo = ZERO_CHECK;
+		};
+		B05B687AC5F44906A4B41B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11C554C7EB3459DAC45BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E4AAF5039543ABAD41CD03;
+			remoteInfo = ZERO_CHECK;
+		};
+		FC08AA1336D64E968645AFDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D11C554C7EB3459DAC45BC01 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 73095582203D4F6286A2CCB4;
 			remoteInfo = FireFist;
 		};
-		6694ADA49EC44D9E81AAFA0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D11C554C7EB3459DAC45BC01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6E4AAF5039543ABAD41CD03;
-			remoteInfo = ZERO_CHECK;
-		};
-		95AAD758A9B24A79AF4841C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D11C554C7EB3459DAC45BC01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6E4AAF5039543ABAD41CD03;
-			remoteInfo = ZERO_CHECK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CAB185350B74F58A041495A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		12F36C1CF076400D949D93DA /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextRenderer.cpp; path = TextRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		2ED2D266EA484BF193E108C9 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		3099A850692F4B679F91DEA0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
-		330C1E5D986647EBAC295A08 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SpriteRenderer.cpp; path = SpriteRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		3B9FCFD42F684C688E5FBDEE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GameObject.cpp; path = GameObject.cpp; sourceTree = SOURCE_ROOT; };
-		41DEDE34B32C4FEB8FA0D503 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Game.hpp; path = Game.hpp; sourceTree = SOURCE_ROOT; };
-		4FAB12A4B1A34BACAF7C0303 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CameraRenderer.hpp; path = CameraRenderer.hpp; sourceTree = SOURCE_ROOT; };
-		671F7B73D31842C4936D3792 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shader.hpp; path = Shader.hpp; sourceTree = SOURCE_ROOT; };
-		6807179E850642ACA95FDB37 /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		80644614BCC34C5F9CE6B616 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Insect.hpp; path = Insect.hpp; sourceTree = SOURCE_ROOT; };
-		A8EEC2026D1A4A388D0D7B89 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ResourceManager.hpp; path = ResourceManager.hpp; sourceTree = SOURCE_ROOT; };
-		A8FC210D031D4D8BA0147EF0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CameraRenderer.cpp; path = CameraRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		A941798154FD476E91EAEE51 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResourceManager.cpp; path = ResourceManager.cpp; sourceTree = SOURCE_ROOT; };
-		AA073456E6404D32AF31F364 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		B0F4D55C5EBD44C0A4F62EA6 /* FireFist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FireFist; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7465D65EBA64B15B09EFC26 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Insect.cpp; path = Insect.cpp; sourceTree = SOURCE_ROOT; };
-		BDEE8A8DC2CC447E89CB9147 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = Game.cpp; sourceTree = SOURCE_ROOT; };
-		BFD5E2A622914DBBB1CAC846 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = stb_image.h; sourceTree = SOURCE_ROOT; };
-		C78D5D2EBE8243D4A1E14059 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shader.cpp; path = Shader.cpp; sourceTree = SOURCE_ROOT; };
-		CBE328102C264FDB91BFFEDB /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture.cpp; path = Texture.cpp; sourceTree = SOURCE_ROOT; };
-		D6FA8B56962C4CCCBD15CA99 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TextRenderer.hpp; path = TextRenderer.hpp; sourceTree = SOURCE_ROOT; };
-		D79AED69CF0545CDA1A96F44 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Texture.hpp; path = Texture.hpp; sourceTree = SOURCE_ROOT; };
-		E8F8751ED4F94865AA0C606E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SpriteRenderer.hpp; path = SpriteRenderer.hpp; sourceTree = SOURCE_ROOT; };
-		EF49175FA69A4B32A061485E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GameObject.hpp; path = GameObject.hpp; sourceTree = SOURCE_ROOT; };
+		00D956046B604DEDBA119705 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SpriteRenderer.cpp; path = SpriteRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		08859E91D10B4B1DA3A1BC31 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Game.hpp; path = Game.hpp; sourceTree = SOURCE_ROOT; };
+		0BA3436F42894200962E4F6E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GameObject.cpp; path = GameObject.cpp; sourceTree = SOURCE_ROOT; };
+		170A5F174AC24F20A9CA6910 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Insect.hpp; path = Insect.hpp; sourceTree = SOURCE_ROOT; };
+		49C287DE670A410098BC5797 /* FireFist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FireFist; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D3779AA467463AA083D770 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		67E384B576D2460CA1800BD7 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = Game.cpp; sourceTree = SOURCE_ROOT; };
+		6C39B76BA4AF4D7D86CFB5BF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		6CE9B613D1484FE6B3BCD9A8 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shader.hpp; path = Shader.hpp; sourceTree = SOURCE_ROOT; };
+		7423A57AE91C4980B50666A6 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shader.cpp; path = Shader.cpp; sourceTree = SOURCE_ROOT; };
+		83994F3B7BFF4EF98AE6F1B1 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8AF1B5A0AC334C67989644B3 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SpriteRenderer.hpp; path = SpriteRenderer.hpp; sourceTree = SOURCE_ROOT; };
+		9A29B1C904F847C79A69238A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Texture.hpp; path = Texture.hpp; sourceTree = SOURCE_ROOT; };
+		9FABA8E90F9F4B47958627AD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ResourceManager.hpp; path = ResourceManager.hpp; sourceTree = SOURCE_ROOT; };
+		A456298401644A3FB447546F /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Insect.cpp; path = Insect.cpp; sourceTree = SOURCE_ROOT; };
+		AB51A1B0BC7C48FAA09451DD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = stb_image.h; sourceTree = SOURCE_ROOT; };
+		BCC151AC9C224AF8A36ECC53 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture.cpp; path = Texture.cpp; sourceTree = SOURCE_ROOT; };
+		C3AB8750C45642CDA9C2BC48 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		E2B15CACCBA34E189917E472 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GameObject.hpp; path = GameObject.hpp; sourceTree = SOURCE_ROOT; };
+		EC4DE17FB84A493A92260875 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResourceManager.cpp; path = ResourceManager.cpp; sourceTree = SOURCE_ROOT; };
+		F7E622EC18D84559BE826557 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CameraRenderer.cpp; path = CameraRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		F922FBD2B97D40B18CE9DC0C /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F9CC467A09144FFCAF11EFF8 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CameraRenderer.hpp; path = CameraRenderer.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FC86A8FF1084418938025D6 /* Frameworks */ = {
+		DB03FBD767644582B155982C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,91 +149,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		390A2A1C159D4EADB9B5DDE7 /* Products */ = {
+		213142CD20174DFF914E0E4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B0F4D55C5EBD44C0A4F62EA6 /* FireFist */,
+				6C39B76BA4AF4D7D86CFB5BF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */,
+				F922FBD2B97D40B18CE9DC0C /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		545F268B9D6A4AC4B77BC13D = {
+		337A5D06507E418D808AF0F3 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				DC42D1215F5949FEA3BB915F /* FireFist */,
-				D103394490CC487886495F4B /* ALL_BUILD */,
-				390A2A1C159D4EADB9B5DDE7 /* Products */,
-				B59CBCFF20E540A690FE0852 /* Frameworks */,
+				7C48261A8EFC4F728A36DE8C /* CMake Rules */,
+				52D3779AA467463AA083D770 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		54D7CAA0865244D9BEDE0CD3 = {
+			isa = PBXGroup;
+			children = (
+				DB8FFD79A4774D9BADCCF37B /* FireFist */,
+				337A5D06507E418D808AF0F3 /* ALL_BUILD */,
+				D31D75AD6742433BA0B3B6C1 /* Products */,
+				213142CD20174DFF914E0E4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7DC1003C535142E7A99D7DF3 /* CMake Rules */ = {
+		72E458D07290469294217DBA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9CC467A09144FFCAF11EFF8 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */,
+				08859E91D10B4B1DA3A1BC31 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */,
+				E2B15CACCBA34E189917E472 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */,
+				170A5F174AC24F20A9CA6910 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */,
+				9FABA8E90F9F4B47958627AD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */,
+				6CE9B613D1484FE6B3BCD9A8 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */,
+				8AF1B5A0AC334C67989644B3 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */,
+				9A29B1C904F847C79A69238A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */,
+				AB51A1B0BC7C48FAA09451DD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7C48261A8EFC4F728A36DE8C /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		B59CBCFF20E540A690FE0852 /* Frameworks */ = {
+		D31D75AD6742433BA0B3B6C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA073456E6404D32AF31F364 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework */,
-				6807179E850642ACA95FDB37 /* /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/OpenGL.framework */,
+				49C287DE670A410098BC5797 /* FireFist */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		CF29C47180F14A70B0F725B0 /* Source Files */ = {
+		DB8FFD79A4774D9BADCCF37B /* FireFist */ = {
 			isa = PBXGroup;
 			children = (
-				A8FC210D031D4D8BA0147EF0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */,
-				BDEE8A8DC2CC447E89CB9147 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */,
-				3B9FCFD42F684C688E5FBDEE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */,
-				B7465D65EBA64B15B09EFC26 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */,
-				A941798154FD476E91EAEE51 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */,
-				C78D5D2EBE8243D4A1E14059 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */,
-				330C1E5D986647EBAC295A08 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */,
-				12F36C1CF076400D949D93DA /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.cpp */,
-				CBE328102C264FDB91BFFEDB /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */,
-				3099A850692F4B679F91DEA0 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		D103394490CC487886495F4B /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				7DC1003C535142E7A99D7DF3 /* CMake Rules */,
-				2ED2D266EA484BF193E108C9 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		DC42D1215F5949FEA3BB915F /* FireFist */ = {
-			isa = PBXGroup;
-			children = (
-				CF29C47180F14A70B0F725B0 /* Source Files */,
-				ED5A480EC82E4CB2BD8A7542 /* Header Files */,
-				0CAB185350B74F58A041495A /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */,
+				F293A1CE5A984DEE950BAA60 /* Source Files */,
+				72E458D07290469294217DBA /* Header Files */,
+				83994F3B7BFF4EF98AE6F1B1 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CMakeLists.txt */,
 			);
 			name = FireFist;
 			sourceTree = "<group>";
 		};
-		ED5A480EC82E4CB2BD8A7542 /* Header Files */ = {
+		F293A1CE5A984DEE950BAA60 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FAB12A4B1A34BACAF7C0303 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.hpp */,
-				41DEDE34B32C4FEB8FA0D503 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.hpp */,
-				EF49175FA69A4B32A061485E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.hpp */,
-				80644614BCC34C5F9CE6B616 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.hpp */,
-				A8EEC2026D1A4A388D0D7B89 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.hpp */,
-				671F7B73D31842C4936D3792 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.hpp */,
-				E8F8751ED4F94865AA0C606E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.hpp */,
-				D6FA8B56962C4CCCBD15CA99 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.hpp */,
-				D79AED69CF0545CDA1A96F44 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.hpp */,
-				BFD5E2A622914DBBB1CAC846 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/stb_image.h */,
+				F7E622EC18D84559BE826557 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */,
+				67E384B576D2460CA1800BD7 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */,
+				0BA3436F42894200962E4F6E /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */,
+				A456298401644A3FB447546F /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */,
+				EC4DE17FB84A493A92260875 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */,
+				7423A57AE91C4980B50666A6 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */,
+				00D956046B604DEDBA119705 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */,
+				BCC151AC9C224AF8A36ECC53 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */,
+				C3AB8750C45642CDA9C2BC48 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */,
 			);
-			name = "Header Files";
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,19 +239,19 @@
 /* Begin PBXNativeTarget section */
 		73095582203D4F6286A2CCB4 /* FireFist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE2C416C7EE44570B427EECB /* Build configuration list for PBXNativeTarget "FireFist" */;
+			buildConfigurationList = 516D7FB3631C4B0691238B74 /* Build configuration list for PBXNativeTarget "FireFist" */;
 			buildPhases = (
-				8AE269692BCD40FBB9EDE5D7 /* Sources */,
-				7FC86A8FF1084418938025D6 /* Frameworks */,
+				522DC77A25404535B0F15A1E /* Sources */,
+				DB03FBD767644582B155982C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				176A88076D6348FF8B06F5D5 /* PBXTargetDependency */,
+				8787D1E0839646BE9F88E541 /* PBXTargetDependency */,
 			);
 			name = FireFist;
 			productName = FireFist;
-			productReference = B0F4D55C5EBD44C0A4F62EA6 /* FireFist */;
+			productReference = 49C287DE670A410098BC5797 /* FireFist */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -269,18 +263,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 			};
-			buildConfigurationList = FD6C2FEE2CA74BD9B1EA7912 /* Build configuration list for PBXProject "FireFist" */;
+			buildConfigurationList = F58CCBD7A30F410F83D92BB2 /* Build configuration list for PBXProject "FireFist" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				7A60CC26B5C348218F46C763 /* Debug */,
-				FD688837F30B49338EFB74B8 /* Release */,
-				1F495B92C8AB4065BE692858 /* MinSizeRel */,
-				E3326A7D423F4422A45E3F5B /* RelWithDebInfo */,
+				EDC0E86121874EF685C9A8F6 /* Debug */,
+				B9B9D5EC7A204D438BBA7724 /* Release */,
+				E994A26E76734E4791A6EDAB /* MinSizeRel */,
+				B1C6609D13544725B18B0DBC /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 545F268B9D6A4AC4B77BC13D;
+			mainGroup = 54D7CAA0865244D9BEDE0CD3;
 			projectDirPath = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project";
 			projectRoot = "";
 			targets = (
@@ -292,7 +286,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A3A3B922B1968BFAF18DD60 /* Generate CMakeFiles/ALL_BUILD */ = {
+		37F60BDBA080CF5C985BF7B2 /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -302,24 +296,24 @@
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeFiles/ALL_BUILD"			);
+"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/ALL_BUILD"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
   echo Build\\ all\\ projects
 fi
 ";
@@ -340,7 +334,7 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		5A8B2C4B6D05D37A18CAC233 /* Generate CMakeFiles/ZERO_CHECK */ = {
+		70CF7387D439D6CAA221B033 /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -350,25 +344,25 @@ exit 0";
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeFiles/ZERO_CHECK"			);
+"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeFiles/ZERO_CHECK"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
-  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeScripts/ReRunCMake.make
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
+  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
-  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeScripts/ReRunCMake.make
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
+  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
-  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeScripts/ReRunCMake.make
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
+  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build\"
-  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/CMakeScripts/ReRunCMake.make
+  cd \"/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build\"
+  make -f /Users/admin/Documents/Dokumente\\ -\\ Administrators\\ MacBook\\ Pro/Documents/Uni/Master/SoSe23/AR/Project/build/CMakeScripts/ReRunCMake.make
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -391,224 +385,44 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AE269692BCD40FBB9EDE5D7 /* Sources */ = {
+		522DC77A25404535B0F15A1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061EC531F95A4AE5B148378B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */,
-				C4926AB3AB2246D5B2E9F028 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */,
-				F759E4F9627742978C830C22 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */,
-				A03DDC2C61BE403CADB44B84 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */,
-				C242AA22090C4916B9338983 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */,
-				CACBC1B6E77B4DFCA6DC3943 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */,
-				4A51B72D22ED4CCF8894AA18 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */,
-				B9753EAE9EAB4CD4AA1FFE50 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/TextRenderer.cpp */,
-				3BBAFA5143FD447CB494B695 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */,
-				311B3C4F3005406AAEE995EE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */,
+				058E58A536424CCCB08E943F /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/CameraRenderer.cpp */,
+				FE0C786BA4FA4960B950A552 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Game.cpp */,
+				F0263DB3623B470C8614193B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/GameObject.cpp */,
+				BD8EDA831FD34784A689C5BE /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Insect.cpp */,
+				0E70701171224DAA9772C844 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/ResourceManager.cpp */,
+				D49BA2AEFDCD478582232513 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Shader.cpp */,
+				1CD3169EF69A453B84F0283B /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/SpriteRenderer.cpp */,
+				DCC53DA8109F43DC9D49F924 /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/Texture.cpp */,
+				AEE82D03286347B397A4FDBD /* /Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16F1046452324103BCE5B8C6 /* PBXTargetDependency */ = {
+		1963F344B7B942DA88430367 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E6E4AAF5039543ABAD41CD03 /* ZERO_CHECK */;
-			targetProxy = 95AAD758A9B24A79AF4841C0 /* PBXContainerItemProxy */;
+			targetProxy = 45F0531B02664339813A94FF /* PBXContainerItemProxy */;
 		};
-		176A88076D6348FF8B06F5D5 /* PBXTargetDependency */ = {
+		8787D1E0839646BE9F88E541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E6E4AAF5039543ABAD41CD03 /* ZERO_CHECK */;
-			targetProxy = 6694ADA49EC44D9E81AAFA0E /* PBXContainerItemProxy */;
+			targetProxy = B05B687AC5F44906A4B41B72 /* PBXContainerItemProxy */;
 		};
-		415E7121E5AB4E84B112F832 /* PBXTargetDependency */ = {
+		EA3B4B95E3C44267A6655DCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73095582203D4F6286A2CCB4 /* FireFist */;
-			targetProxy = 0E206D514E084C68BAA5B2A7 /* PBXContainerItemProxy */;
+			targetProxy = FC08AA1336D64E968645AFDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25E78A44106C421FA6F188A4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build";
-			};
-			name = MinSizeRel;
-		};
-		4AC42C85CF394FD897936647 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		4C746DD0AF1F4A2BB4F623AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		55126EB0823B4410880A2D1D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/Debug";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/Cellar/glfw/3.3.8/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libGLEW.2.2.0.dylib,/usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.dylib,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_gapi.4.7.0.dylib,/usr/local/lib/libopencv_highgui.4.7.0.dylib,/usr/local/lib/libopencv_ml.4.7.0.dylib,/usr/local/lib/libopencv_objdetect.4.7.0.dylib,/usr/local/lib/libopencv_photo.4.7.0.dylib,/usr/local/lib/libopencv_stitching.4.7.0.dylib,/usr/local/lib/libopencv_video.4.7.0.dylib,/usr/local/lib/libopencv_videoio.4.7.0.dylib,"-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_imgcodecs.4.7.0.dylib,/usr/local/lib/libopencv_dnn.4.7.0.dylib,/usr/local/lib/libopencv_calib3d.4.7.0.dylib,/usr/local/lib/libopencv_features2d.4.7.0.dylib,/usr/local/lib/libopencv_flann.4.7.0.dylib,/usr/local/lib/libopencv_imgproc.4.7.0.dylib,/usr/local/lib/libopencv_core.4.7.0.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = FireFist;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		6CB0D13771B9402D9CDE2E75 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		73CFE36603924B3B9D857017 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		77F9D867B5184089BB9C1466 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/RelWithDebInfo";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/Cellar/glfw/3.3.8/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libGLEW.2.2.0.dylib,/usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.dylib,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_gapi.4.7.0.dylib,/usr/local/lib/libopencv_highgui.4.7.0.dylib,/usr/local/lib/libopencv_ml.4.7.0.dylib,/usr/local/lib/libopencv_objdetect.4.7.0.dylib,/usr/local/lib/libopencv_photo.4.7.0.dylib,/usr/local/lib/libopencv_stitching.4.7.0.dylib,/usr/local/lib/libopencv_video.4.7.0.dylib,/usr/local/lib/libopencv_videoio.4.7.0.dylib,"-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_imgcodecs.4.7.0.dylib,/usr/local/lib/libopencv_dnn.4.7.0.dylib,/usr/local/lib/libopencv_calib3d.4.7.0.dylib,/usr/local/lib/libopencv_features2d.4.7.0.dylib,/usr/local/lib/libopencv_flann.4.7.0.dylib,/usr/local/lib/libopencv_imgproc.4.7.0.dylib,/usr/local/lib/libopencv_core.4.7.0.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = FireFist;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		816F80F2B3B5455696AD4825 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/Release";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/Cellar/glfw/3.3.8/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libGLEW.2.2.0.dylib,/usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.dylib,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_gapi.4.7.0.dylib,/usr/local/lib/libopencv_highgui.4.7.0.dylib,/usr/local/lib/libopencv_ml.4.7.0.dylib,/usr/local/lib/libopencv_objdetect.4.7.0.dylib,/usr/local/lib/libopencv_photo.4.7.0.dylib,/usr/local/lib/libopencv_stitching.4.7.0.dylib,/usr/local/lib/libopencv_video.4.7.0.dylib,/usr/local/lib/libopencv_videoio.4.7.0.dylib,"-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_imgcodecs.4.7.0.dylib,/usr/local/lib/libopencv_dnn.4.7.0.dylib,/usr/local/lib/libopencv_calib3d.4.7.0.dylib,/usr/local/lib/libopencv_features2d.4.7.0.dylib,/usr/local/lib/libopencv_flann.4.7.0.dylib,/usr/local/lib/libopencv_imgproc.4.7.0.dylib,/usr/local/lib/libopencv_core.4.7.0.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = FireFist;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		9C5D66E34D8A423EA1E8F3A8 /* Release */ = {
+		0E29D8E0CE0F475497BB1146 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -628,84 +442,12 @@ exit 0";
 			};
 			name = Release;
 		};
-		B412DAF01BCB4B98B509D02C /* RelWithDebInfo */ = {
+		21C9889722C0499BAA673EAF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		C40DF04FDB7F4B2F904A18EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		D81CDEE92FFC4FD0B7E5EFFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E728ED85E8A6473C8B56DD2A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build";
-			};
-			name = RelWithDebInfo;
-		};
-		E8742C1D3DA844C995C1E21E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/MinSizeRel";
+				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/MinSizeRel";
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
@@ -723,13 +465,113 @@ exit 0";
 				PRODUCT_NAME = FireFist;
 				SECTORDER_FLAGS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		F8B6280A4B1846B88D10FE18 /* Release */ = {
+		21E8F9726B19484EBCE14CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build";
+			};
+			name = Debug;
+		};
+		3AEC5E415CD64B98BE5DA899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4085CFE97645412182AD54CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/glfw/3.3.8/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libGLEW.2.2.0.dylib,/usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.dylib,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_gapi.4.7.0.dylib,/usr/local/lib/libopencv_highgui.4.7.0.dylib,/usr/local/lib/libopencv_ml.4.7.0.dylib,/usr/local/lib/libopencv_objdetect.4.7.0.dylib,/usr/local/lib/libopencv_photo.4.7.0.dylib,/usr/local/lib/libopencv_stitching.4.7.0.dylib,/usr/local/lib/libopencv_video.4.7.0.dylib,/usr/local/lib/libopencv_videoio.4.7.0.dylib,"-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_imgcodecs.4.7.0.dylib,/usr/local/lib/libopencv_dnn.4.7.0.dylib,/usr/local/lib/libopencv_calib3d.4.7.0.dylib,/usr/local/lib/libopencv_features2d.4.7.0.dylib,/usr/local/lib/libopencv_flann.4.7.0.dylib,/usr/local/lib/libopencv_imgproc.4.7.0.dylib,/usr/local/lib/libopencv_core.4.7.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FireFist;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5C70D4AD8FFC48EDA845BFDB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		694F60FFA33042E0863D6317 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8A42ACD5B4044AB78E6F2F4C /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -737,64 +579,215 @@ exit 0";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build";
+				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build";
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		FD08022844574C41859AED2A /* Debug */ = {
+		9618EEA9F37A48F3911BA609 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/glfw/3.3.8/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libGLEW.2.2.0.dylib,/usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.dylib,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_gapi.4.7.0.dylib,/usr/local/lib/libopencv_highgui.4.7.0.dylib,/usr/local/lib/libopencv_ml.4.7.0.dylib,/usr/local/lib/libopencv_objdetect.4.7.0.dylib,/usr/local/lib/libopencv_photo.4.7.0.dylib,/usr/local/lib/libopencv_stitching.4.7.0.dylib,/usr/local/lib/libopencv_video.4.7.0.dylib,/usr/local/lib/libopencv_videoio.4.7.0.dylib,"-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_imgcodecs.4.7.0.dylib,/usr/local/lib/libopencv_dnn.4.7.0.dylib,/usr/local/lib/libopencv_calib3d.4.7.0.dylib,/usr/local/lib/libopencv_features2d.4.7.0.dylib,/usr/local/lib/libopencv_flann.4.7.0.dylib,/usr/local/lib/libopencv_imgproc.4.7.0.dylib,/usr/local/lib/libopencv_core.4.7.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FireFist;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9AC467A23BD84D6BBFEA336C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9FFD554FF5524F88BFEBEAD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
-				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Repo/FireFist/Project/build/build";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build";
+			};
+			name = Release;
+		};
+		B4B484B9DA904E22A9E435EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BA5EE17E5143448B911B6ACD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D359EE80D5A149D395F746B6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		DE6702B4A00349C6B136C613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EEDF337FF31C4CD9A6E7FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/glfw/3.3.8/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libGLEW.2.2.0.dylib,/usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.dylib,"-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_gapi.4.7.0.dylib,/usr/local/lib/libopencv_highgui.4.7.0.dylib,/usr/local/lib/libopencv_ml.4.7.0.dylib,/usr/local/lib/libopencv_objdetect.4.7.0.dylib,/usr/local/lib/libopencv_photo.4.7.0.dylib,/usr/local/lib/libopencv_stitching.4.7.0.dylib,/usr/local/lib/libopencv_video.4.7.0.dylib,/usr/local/lib/libopencv_videoio.4.7.0.dylib,"-Xlinker -framework -Xlinker OpenGL",/usr/local/lib/libopencv_imgcodecs.4.7.0.dylib,/usr/local/lib/libopencv_dnn.4.7.0.dylib,/usr/local/lib/libopencv_calib3d.4.7.0.dylib,/usr/local/lib/libopencv_features2d.4.7.0.dylib,/usr/local/lib/libopencv_flann.4.7.0.dylib,/usr/local/lib/libopencv_imgproc.4.7.0.dylib,/usr/local/lib/libopencv_core.4.7.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FireFist;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv4,/usr/local/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/admin/Documents/Dokumente - Administrators MacBook Pro/Documents/Uni/Master/SoSe23/AR/Project/build/build/FireFist.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		439E9658092F4D158EC530C3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0FE2C110ADD14F2E9AC30931 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C40DF04FDB7F4B2F904A18EC /* Debug */,
-				9C5D66E34D8A423EA1E8F3A8 /* Release */,
-				73CFE36603924B3B9D857017 /* MinSizeRel */,
-				6CB0D13771B9402D9CDE2E75 /* RelWithDebInfo */,
+				B4B484B9DA904E22A9E435EA /* Debug */,
+				DE6702B4A00349C6B136C613 /* Release */,
+				9AC467A23BD84D6BBFEA336C /* MinSizeRel */,
+				5C70D4AD8FFC48EDA845BFDB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		550C6F1CAAE940A086D28942 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		1767FEFADFF641188E758BC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C746DD0AF1F4A2BB4F623AA /* Debug */,
-				D81CDEE92FFC4FD0B7E5EFFF /* Release */,
-				4AC42C85CF394FD897936647 /* MinSizeRel */,
-				B412DAF01BCB4B98B509D02C /* RelWithDebInfo */,
+				3AEC5E415CD64B98BE5DA899 /* Debug */,
+				0E29D8E0CE0F475497BB1146 /* Release */,
+				694F60FFA33042E0863D6317 /* MinSizeRel */,
+				BA5EE17E5143448B911B6ACD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		EE2C416C7EE44570B427EECB /* Build configuration list for PBXNativeTarget "FireFist" */ = {
+		516D7FB3631C4B0691238B74 /* Build configuration list for PBXNativeTarget "FireFist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55126EB0823B4410880A2D1D /* Debug */,
-				816F80F2B3B5455696AD4825 /* Release */,
-				E8742C1D3DA844C995C1E21E /* MinSizeRel */,
-				77F9D867B5184089BB9C1466 /* RelWithDebInfo */,
+				EEDF337FF31C4CD9A6E7FD53 /* Debug */,
+				4085CFE97645412182AD54CD /* Release */,
+				21C9889722C0499BAA673EAF /* MinSizeRel */,
+				9618EEA9F37A48F3911BA609 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FD6C2FEE2CA74BD9B1EA7912 /* Build configuration list for PBXProject "FireFist" */ = {
+		F58CCBD7A30F410F83D92BB2 /* Build configuration list for PBXProject "FireFist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD08022844574C41859AED2A /* Debug */,
-				F8B6280A4B1846B88D10FE18 /* Release */,
-				25E78A44106C421FA6F188A4 /* MinSizeRel */,
-				E728ED85E8A6473C8B56DD2A /* RelWithDebInfo */,
+				21E8F9726B19484EBCE14CFE /* Debug */,
+				9FFD554FF5524F88BFEBEAD5 /* Release */,
+				8A42ACD5B4044AB78E6F2F4C /* MinSizeRel */,
+				D359EE80D5A149D395F746B6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
