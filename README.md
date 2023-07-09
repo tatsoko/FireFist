@@ -22,5 +22,7 @@ Clone the repository:
 
    ```shell
    git clone https://github.com/tatsoko/FireFist.git
+   ```
+## Acknowledgements
 
-## Installation
+FireFist was developed by Tatev Tsokolakyan and Leonie Wargitsch as a final project for Erweiterte Realität (IN2018) course at TUM.
